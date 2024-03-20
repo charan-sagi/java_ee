@@ -1,0 +1,11 @@
+package composition;
+
+import javax.persistence.Column;
+
+public class Address {
+	@Column(name="street", length=20)
+	private String street;
+	
+	@Column(name="city", length=20)
+	private String city;
+}

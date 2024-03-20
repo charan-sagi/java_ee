@@ -1,0 +1,10 @@
+package manytomany;
+
+public class AddCourseStudents {
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory
+				   ("mysql_ddl");
+		EntityManager em = emf.createEntityManager();
+	}
+
+}

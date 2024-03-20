@@ -1,0 +1,13 @@
+package composition;
+
+@Table(name="players")
+@Entity(name="composition.Player")
+public class Player {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="pid")
+	private int id;
+	
+	@Column(name="pname")
+	private String name;
+}

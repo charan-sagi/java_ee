@@ -1,0 +1,12 @@
+package basics;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Table(name="jobs")
+@Entity(name="basics.jobs")
+public class Jobs {
+	@Id
+	@Column(name="job_id")
+	private String id;
+}

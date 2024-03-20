@@ -1,0 +1,7 @@
+package basics;
+
+@Table(name="jobs")
+@Entity(name="basics.jobs")
+public class Jobs {
+	
+}

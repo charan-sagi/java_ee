@@ -1,0 +1,19 @@
+package pk;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="customers")
+@Entity(name="pk.Customer")
+public class Customer {
+	@Id
+	@GeneratedValue(strategy="GeneratedType.IDENTITY")
+	@Column(name="cust_id")
+	private int id;
+	
+	@Column(name="cust_name", length=20)
+	private String name;
+}

@@ -1,0 +1,5 @@
+package manytomany;
+
+public class Course {
+
+}

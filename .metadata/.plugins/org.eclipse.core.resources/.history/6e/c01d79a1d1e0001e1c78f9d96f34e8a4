@@ -1,0 +1,10 @@
+package basics;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Table(name="departments")
+@Entity(name="basics.Department")
+public class Department {
+	
+}

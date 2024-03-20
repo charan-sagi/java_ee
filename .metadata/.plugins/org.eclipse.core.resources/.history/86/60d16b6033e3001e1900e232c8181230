@@ -1,0 +1,7 @@
+package pk;
+
+@Table(name="salaries")
+@Entity(name="pk.Salary")
+public class Salary {
+
+}

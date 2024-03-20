@@ -1,0 +1,8 @@
+package manytomany;
+
+public class AddCourseStudents {
+	public static void main(String[] args) {
+		
+	}
+
+}

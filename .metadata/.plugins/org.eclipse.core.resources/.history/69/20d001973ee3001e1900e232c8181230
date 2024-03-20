@@ -1,0 +1,5 @@
+package manytoone;
+
+public class ListDepartments {
+
+}

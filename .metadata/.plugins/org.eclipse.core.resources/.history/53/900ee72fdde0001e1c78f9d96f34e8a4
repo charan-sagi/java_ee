@@ -1,0 +1,12 @@
+package basics;
+
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class DeleteJob {
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("mysql");
+		EntityManager em = emf.createEntityManager();
+	}
+
+}

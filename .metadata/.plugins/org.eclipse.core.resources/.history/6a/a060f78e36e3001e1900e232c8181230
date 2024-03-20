@@ -1,0 +1,7 @@
+package collection;
+
+@Table(name = "PROGRAMMERS")
+@Entity(name = "collection.Programmer")
+public class Programmer {
+	
+}

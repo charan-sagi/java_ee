@@ -1,0 +1,7 @@
+package basics;
+
+@Table(name="departments")
+@Entity(name="basics.Department")
+public class Department {
+	
+}

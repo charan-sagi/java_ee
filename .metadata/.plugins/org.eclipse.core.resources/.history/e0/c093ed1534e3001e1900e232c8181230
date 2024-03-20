@@ -1,0 +1,11 @@
+package pk;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Table(name="salaries")
+@Entity(name="pk.Salary")
+public class Salary {
+	
+}

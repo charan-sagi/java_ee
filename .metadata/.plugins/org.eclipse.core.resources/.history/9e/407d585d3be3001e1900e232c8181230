@@ -1,0 +1,23 @@
+package manytonone;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name = "employees")
+@Entity(name = "manytoone.Employee")
+public class Employee {
+	@Id
+	@Column(name = "employee_id")
+	private int id;
+	
+	@Column(name = "first_name")
+	private String name;
+	
+	@Column(name = "salary") 
+	private int salary;
+	
+	@Column(name = "department_id")
+	private int deptId;
+}

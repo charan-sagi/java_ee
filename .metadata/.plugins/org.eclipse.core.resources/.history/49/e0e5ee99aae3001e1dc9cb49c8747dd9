@@ -1,0 +1,15 @@
+package manytomany;
+
+@Table(name = "courses")
+@Entity(name = "manytomany.Course")
+public class Course {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
+	private int id;
+	
+	@Column(name = "name", length = 20)
+	private String name;
+	
+	@ManyToMany(mappedBy = "course_id")
+}

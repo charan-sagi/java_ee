@@ -1,0 +1,7 @@
+package manytonone;
+
+@Table(name = "employees")
+@Entity(name = "manytoone.Employee")
+public class Employee {
+
+}

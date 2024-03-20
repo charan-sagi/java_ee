@@ -1,0 +1,13 @@
+package pk;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+
+public class SalaryPK {
+	@Column(name="id")
+	private int id;
+	
+	@Column(name="paidon")
+	private Date paidon;
+}
