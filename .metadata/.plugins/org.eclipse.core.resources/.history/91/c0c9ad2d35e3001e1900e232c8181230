@@ -1,9 +1,0 @@
-package pk;
-
-import javax.persistence.Persistence;
-
-public class AddEmployees {
-	public static void main(String args[]) {
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("mysql_ddl");
-	}
-}

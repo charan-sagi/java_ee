@@ -1,7 +1,0 @@
-package manytomany;
-
-@Table(name="students")
-@Entity(name="manytomany.Student")
-public class Student {
-
-}

@@ -1,9 +1,0 @@
-package basics;
-
-import javax.persistence.Persistence;
-
-public class ListJobs {
-	public static void main(String[] args) {
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("mysql");
-	}
-}

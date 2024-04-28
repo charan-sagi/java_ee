@@ -1,9 +1,0 @@
-package manytonone;
-
-@Table(name = "departments")
-@Entity(name = "manytonone.Department")
-public class Department {
-	@Id
-	@Column(name = "department_id")
-	private int id;
-}

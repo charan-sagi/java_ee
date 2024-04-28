@@ -37,6 +37,7 @@
 		<class>collection.Programmer</class>
 		<class>manytomany.Student</class>
 	    <class>manytomany.Course</class>
+	    <class>concurrency.Person</class>
 
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>

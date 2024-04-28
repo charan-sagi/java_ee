@@ -1,7 +1,0 @@
-package pk;
-
-@Table(name="customers")
-@Entity(name="pk.Customer")
-public class Customer {
-
-}

@@ -1,7 +1,0 @@
-package composition;
-
-@Table(name="players")
-@Entity(name="composition.Player")
-public class Player {
-
-}

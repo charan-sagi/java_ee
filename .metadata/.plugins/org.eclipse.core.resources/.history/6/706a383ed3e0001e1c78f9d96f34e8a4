@@ -1,7 +1,0 @@
-package basics;
-
-public class ListDepartments {
-	public static void main(String[] args) {
-		
-	}
-}

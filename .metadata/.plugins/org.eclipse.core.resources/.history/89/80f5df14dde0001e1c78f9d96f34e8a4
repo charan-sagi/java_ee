@@ -1,8 +1,0 @@
-package basics;
-
-public class DeleteJob {
-	public static void main(String[] args) {
-
-	}
-
-}

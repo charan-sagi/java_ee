@@ -1,7 +1,0 @@
-package basics;
-
-@Table(name="departments")
-@Entity(name=)
-public class Jobs {
-	
-}

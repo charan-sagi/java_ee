@@ -1,9 +1,0 @@
-package composition;
-
-public class AddPlayer {
-
-	public static void main(String[] args) {
-		
-	}
-
-}
